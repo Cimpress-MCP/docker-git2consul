@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpine:3.5
 MAINTAINER Calvin Leung Huang <https://github.com/calvn>
 
 RUN apk --update add nodejs git openssh ca-certificates && \
